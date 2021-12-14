@@ -1,0 +1,10 @@
+.btn{
+ @include font(16px, 1.87, 0.06em, 700 );
+@extend %align-list;
+text-align: center;
+border-radius: 4px;
+border: var(--accent-color);
+color:var(--fourth-text-color);
+background-color:var(--accent-color);
+
+}

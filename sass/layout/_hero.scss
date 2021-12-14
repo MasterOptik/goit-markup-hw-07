@@ -1,0 +1,26 @@
+.hero{
+  padding: 200px 0px;
+height: 600px;
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+ url('../images/fonImg.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  background-color:var(--first-text-color);
+  
+}
+ .hero__text{
+   @include font(44px, 1.36, 0.06em, 900 );
+font-style: normal;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 40px;
+color:var(--fourth-text-color);
+}
+
+.hero-btn{
+   padding: 10px 32px;
+margin-right: auto;
+margin-left: auto;
+ cursor: pointer;
+}

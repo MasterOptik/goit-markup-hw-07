@@ -1,0 +1,9 @@
+.logo{
+  @include font(26px, 1.19, 0.03em, 700 );
+  font-family: Raleway;
+color:var(--accent-color);
+}
+.studio{
+  font-family: Raleway;
+  @include font(26px, 1.19, 0.03em, 700 );
+}
